@@ -1,4 +1,23 @@
-.header{
+body{
+	background-color: blue;
+}
+
+img{
+	max-width:100%;
+	max-height:100%;
+}
+
+h1{
+	font-family: "Comic Sans MS";
+}
+
+.troll{
+	color: lime;
+	font-family: "Comic Sans MS";
+}
+
+.header{ /*for the top of the page*/ 
+	background-color: white;
 	text-align: center;
 	width: 800px;
 	margin-top: 20px;
@@ -6,17 +25,19 @@
 	margin-right: auto;
 	border: 3px;
 	border-style: solid;
-	border-color: fuchsia;
+	border-color: navy;
 	padding: 20px;
 
 }
 
 ul li{
 	display: inline;
+	text-align: center;
 }
 
 
 .body-article{
+	background-color: white;
 	float; left;
 	width: 800px;
 	margin-left: auto;
@@ -25,7 +46,7 @@ ul li{
 	margin-bottom: 0px;
 	border: 3px;
 	border-style: solid;
-	border-color: fuchsia;
+	border-color: navy;
 	padding: 20px;
 }
 
@@ -37,11 +58,13 @@ ul li{
 	margin-bottom: 50px;
 	border: 3px;
 	border-style: solid;
-	border-color: fuchsia;
+	border-color: navy;
 	padding: 5px;
 }
 
-#container{
-	float: left;
-	clear: none;
+#footer{
+	width: 800px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
